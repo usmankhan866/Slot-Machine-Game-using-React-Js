@@ -6,13 +6,16 @@ const SlotM = (props) =>{
   // let y = '😃';
   // let z = '🙂';
 
+  let x = props.x;
+  let y = props.y;
+  let z = props.z;
 
-  if ((props.x===props.y) && (props.y===props.z)) {
+  if ((x===y) && (y===z)) {
     return(
     <>
        <div className="slot_inner">
     
-         <h2> {props.x} {props.y} {props.z} </h2>
+         <h2> {x} {y} {z} </h2>
          <h2>This is Matching </h2>
          <hr />
     </div>
@@ -23,7 +26,7 @@ const SlotM = (props) =>{
     return(
     <>
     <div className="slot_inner">
-    <h2> {props.x} {props.y} {props.z} </h2>
+    <h2> {x} {y} {z} </h2>
      <h2>This is not Matching </h2>
      <hr />
      </div>
