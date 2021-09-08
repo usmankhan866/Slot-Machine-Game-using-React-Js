@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+.Headings{
+ 
+  width: 100%;
+  text-align: center;
+  margin-top: 0%;
+  background-color: white;
+  padding: 8px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+  color: burlywood;
+}
+
+.slot_inner{
+
+  text-align: center;
+  padding: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: brown;
+
+}
+
+.SlotMachine{
+
+  width: 450px;
+  height: auto;
+  border: 2px solid;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 35%;
+}
